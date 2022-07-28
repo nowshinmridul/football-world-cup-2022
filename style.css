@@ -1,0 +1,120 @@
+
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 18px;
+}
+
+
+.banner{
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    margin: 1% 10%;
+    color: rgb(246, 250, 254);
+
+    
+}
+
+.banner-details{
+    width: 50%;
+    padding: 10%;
+}
+.banner-img{
+   
+    width: 100%;
+}
+.banner-img img{
+    width:100%;
+    height: fit-content;
+}
+.banner-btn{
+    padding: 8px 18px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.main-part{
+   display: flex;
+   padding: 2%;
+   margin: 2% 10%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4%;
+    grid-column-gap: 3%;
+}
+.article-card{
+    border: 1px solid gray;
+
+
+    border-radius:5%;
+}
+.article-card img{
+    width: 100%;
+    margin:0% 0% 2% 0%;
+}
+.article-details{
+    padding: 3%;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+    width: 10%;
+}
+.cards{
+    display: grid;
+    grid-row: 3, 1fr;
+
+    width: 75%;
+}
+.navigation{
+    background-color: black;
+    align-content: center;
+    justify-content: center;
+    padding: 2% 6%;
+    border-radius: 5px;
+    color: rgb(20, 20, 20); 
+    margin:20% 3%;
+    width: 25%;
+    
+
+
+}
+.navigation-btn{
+    padding: 8px 18px;
+    background-color: rgb(249, 249, 249);
+    font-size: 27px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 8% 5%;
+    text-align: center;
+    margin-top: 8%;
+    
+    
+}
+.footer-title{
+    padding: 2%;
+    border-bottom: 1px solid rgb(132, 131, 131);
+}
+
+.footer-point{
+    
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   
+    
+}
+
