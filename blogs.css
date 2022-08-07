@@ -34,19 +34,10 @@ p{
 }
 .banner-btn{
     padding: 8px 18px;
-    background-color: rgb(248, 242, 242);
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    border: 1px solid rgba(128, 128, 128, 0.299);
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    font-size: 22px;
     border-radius: 5px;
-}
-.banner-btn-1{
-    padding: 8px 18px;
-    background-color: rgb(246, 2, 2);
-    color: rgb(252, 249, 249);
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .main-part{
@@ -60,33 +51,17 @@ p{
     grid-row-gap: 4%;
     grid-column-gap: 3%;
 }
-.article-card{
-    border: 1px solid gray;
-    border-radius:5%;
-}
-.article-card img{
-    width: 100%;
-    margin:0% 0% 2% 0%;
-}
-.article-details{
-    padding: 3%;
-}
-.icons{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 50%;
-}
+
 
 .navigation{
     background-color: rgb(0, 0, 0);
     align-content: center;
     justify-content: center;
-    padding: 2% 2%;
+    padding: 2% 6%;
     border-radius: 5px;
     color: whitesmoke; 
-    margin:1%;
-   max-width: 300px;
+    margin:2%;
+    max-width: 300px;
    min-width: 300px;
 height: min-content;
 
@@ -124,20 +99,6 @@ height: min-content;
     text-decoration: none;
     color:white;
 }
-.more-btn{
-    
-        padding: 8px 18px;
-        background-color: rgb(246, 2, 2);
-        color: rgb(252, 249, 249);
-        font-size: 22px;
-        border-radius: 5px;
-        visibility: hidden;
-        align-items: center;
-        text-align: center;
-        justify-content: center;    
-
-}
-
 .footer{
     background-color: black;
     color: aliceblue;
@@ -165,16 +126,33 @@ height: min-content;
     margin: 0% 4%;
 }
 .footer-point{
-    
     display: grid;
     grid-template-columns: repeat(6,1fr);
-   
     
 }
-.icons-box{
+.divs{
     display: flex;
+    padding: 1%;
+    font-size: 25px;
+    text-align: center;
     justify-content: center;
-    color: rgba(2, 2, 2, 0.692);
+
+}
+
+.divs img{
+    margin: 3%;
+    height: 100%;
+    width: 100%;   
+}
+
+.uu{
+    border: 1px solid rgba(108, 100, 100, 0.692);
+    text-align: center;
+    padding: 2% 1%;
+}
+
+.div1{
+    padding: 1%;
 }
 
 /*----------- responsive------------ */
@@ -196,13 +174,13 @@ height: min-content;
     .article-card{
         margin: 2%;
     }
-   
+
     .navigation{
         display: flex;
         flex-direction: column;
         margin: 0% ;
         padding: 0%;
-        width: 90%;
+        width: 100%;
         background-color:whitesmoke;
         font-size: 16px;
         align-items: center;
@@ -213,8 +191,9 @@ height: min-content;
     .navigation-btn{
         width: max-content;
         margin: 3%;
-    padding: 2%;}
-
+    padding: 2%;
+    
+    }
     .footer-point{
         display: flex;
         flex-direction: column;
@@ -248,7 +227,6 @@ height: min-content;
 
     }
 
-    
     .navigation{
         display: flex;
         flex-direction: row;
@@ -264,6 +242,7 @@ height: min-content;
 .navigation-btn{
     margin: 3%;
     padding: 2%;
+    
 
 }
 .navigation-btn-1{
@@ -273,20 +252,7 @@ align-items: center;
 justify-content: center;
 justify-items: center;
 }
-.more-btn{
-    visibility: visible;
-}
 
-.more-btn-box{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 2%;
-    padding: 5%;
-    font-size: 22px;
-    border-radius: 5%;
-
-}
 .footer-point{
     
     display: grid;
